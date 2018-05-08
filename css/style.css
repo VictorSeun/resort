@@ -42,7 +42,11 @@ body {
 	h3 {
 		text-align: center;
 	}
-
+/*.pic {
+	max-width: 200px;
+	max-height: 200px;
+}
+*/
 a:link, a:visited {
     color: #1f2933;
     text-align: center;
