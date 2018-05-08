@@ -1,6 +1,6 @@
 /*----------CSS STYLES-----------------*/
 body {
-	background-color: #f2f2f2;
+	background-color: #e6eef2;
 	color: black;
 	font-family: Adobe Calson Pro;
 	margin: auto;
@@ -8,36 +8,65 @@ body {
 	font-size: 20px;
 }
 .header {
+	position: absolute;
+
 
 }
 .logo {
 	position: absolute;
-	top: 10px;
-	left: 500px;
+	top: 240px;
+	left: 60px;
 	width: 300;
-	height: 140px; 
+	height: 140px;
 }
 .nav {
 	position: absolute;
 	top: 300px;
-	left: 450px;
+	left: 900px;
+	height: 100px;
 }
- ul {
- 	list-style-type: none;
- 	margin: 0px;
- 	padding: 0px;
- 	overflow: hidden;
- }
-
- a: link {
- 	display: block;
- 	font-weight: bold;
- 	color: #003366;
- 	
- }
 .main {
-
+	position: absolute;
+	left: 33px;
+	top:400px;
+	height: 700px;
+	width: 1300px;
 }
-.footer {
+.mid_nav {
+	margin: 0px 0px 0px 30px;
+  width: 350px;
+  float: left;
+  padding: 20px;
+	text-align: justify;
+	}
+	h3 {
+		text-align: center;
+	}
 
+a:link, a:visited {
+    color: #1f2933;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+
+a:hover, a:active {
+		color: ;
+	}
+	ul li {
+		float: left;
+		display: block;
+		padding: 5px 5px 5px 5px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+.footer {
+	position: absolute;
+	top:1150px;
+	padding-bottom: 20px;
+	left: 33px;
+	text-align: center;
+
+	width: 1300px;
 }
